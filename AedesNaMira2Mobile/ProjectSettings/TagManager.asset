@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - chao
+  - larva
+  - Ponto1
+  - Ponto3
+  - Ponto4
+  - Ponto2
+  - Gerenciar
+  - HUD
+  - CanvasHUD
+  - Dinheiro
+  - FxTemporaire
+  - Heroi
+  - controledireito
+  - AguaSVermelha
+  - AguaSDourada
+  - AguaSAzul
+  - CanvasHud
+  - BalaVermelha
+  - BalaAzul
+  - BalaDourada
+  - Mira
+  - Ponto5
+  - Esquerda
+  - Direita
+  - CIndividual
+  - visao
+  - Mosquito_Normal
+  - Mosquito_Zika
+  - Mosquito_Chikungunya
+  - Mosquito_Dengue
+  - EfeitoProtecao
+  - ItemFato
+  - QuantidadeItem
+  - MosquitoMorto
+  - MosquitoMortoTexto
+  - PilhasTexto
+  - DinheiroTexto
+  - Caveiras
+  - Efermidade
+  - ProtecaoCarregar
+  - Protecao
+  - TextoAguaParada
+  - TextoRelogio
+  - Relogio
+  - Pilhas
+  - CarregarVida
+  - CargaPilhaAguaSanitaria
+  - Ponto
+  - Enfermidade
+  - EnfermidadeCarregar
+  - Ponto6
+  - Remedio5
+  - Remedio20
+  - Sangria
+  - Arma
+  - frente
+  - atras
+  - direita
+  - esquerda
+  - Parede
+  - camera
+  - Arma1agua1litro
+  - Arma2agua1litro
+  - Arma3agua1litro
+  - seguidor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Heroi
+  - Arma
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
