@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7909409675828274493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7909409675828274488}
+  - component: {fileID: 7909409675828274491}
+  - component: {fileID: 7909409675828274490}
+  - component: {fileID: 7909409675828274489}
+  - component: {fileID: 7909409675828274486}
+  - component: {fileID: 7909409675828274487}
+  - component: {fileID: 7909409675828274484}
+  - component: {fileID: 7909409675828274485}
+  - component: {fileID: 7909409675828274482}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Gerenciar
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7909409675828274488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7909409675828274491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!114 &7909409675828274490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &7909409675828274489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f853b842c0fe0f6459335c5dbede032d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7909409675828274486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9d3bd6487782c4c998b771eeeace13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Saldo: 8000
+  pontos: 0
+  MosquitoNormalMorto: 0
+  MosquitoZikaMorto: 0
+  MosquitoDengueMorto: 0
+  MosquitoChMorto: 0
+  Mosquitototal: 0
+  FocoDestruido: 0
+  HUD: {fileID: 0}
+--- !u!114 &7909409675828274487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7ef11826830f1f47b2ad0a6aa86d5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NivelDificulade: 1
+  time: 0
+--- !u!114 &7909409675828274484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85c92fd6d322cb418eaa7ee29252110, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tela_800_600: {fileID: 8426177932046362626, guid: 94dcce14bc7d9e64e9e2df2265656941,
+    type: 3}
+  tela_2560_1440: {fileID: 4284186149263944437, guid: 63691d9534e5b2443ac958e81f4b2b31,
+    type: 3}
+  tela_3840_2160: {fileID: 6780885456261126255, guid: 91b981996174f6f4f81b417a68af141f,
+    type: 3}
+  tela_320_240: {fileID: 8912730109017199568, guid: 5e4d8031a8ab73b42a4305097508ddf6,
+    type: 3}
+  tela_1920_1080: {fileID: 4108082717702582469, guid: 760beeca099a86e468d2e5593fe0c169,
+    type: 3}
+  tela_1280_720: {fileID: 5250199078330817691, guid: 3dcb8dd8bf30a1f47ab05ef3af503ec1,
+    type: 3}
+  tela_1136_640: {fileID: 5250199078330817691, guid: 3dcb8dd8bf30a1f47ab05ef3af503ec1,
+    type: 3}
+  tela_1134_750: {fileID: 8205812978230389213, guid: fb13fda4d3edd0447a0be63bcff63d64,
+    type: 3}
+  tela_640_360: {fileID: 2568807952673714385, guid: b92353012a9a0d2438203e61f419e733,
+    type: 3}
+  tela_640_480: {fileID: 8140705916474847696, guid: fe16a46028e56b240bd921e8d70a71de,
+    type: 3}
+  tela_960_540: {fileID: 6298193704375299413, guid: e99d1c6ffce14f84d8203c3257dce55e,
+    type: 3}
+--- !u!114 &7909409675828274485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272524032f9231f46a94c8eeccdb1c00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  novoFoco_800_600: {fileID: 6897151345313775197, guid: 742c51006b046cd45b34a3f4f874e655,
+    type: 3}
+  novoFoco_2560_1440: {fileID: 5544093299218069231, guid: 22c571fe74cc057418dcc3eb56d1dee4,
+    type: 3}
+  novoFoco_3840_2160: {fileID: 1231451746006153668, guid: 1e88f203ae5f712439bbd832cca0e6f3,
+    type: 3}
+  novoFoco_320_240: {fileID: 7500909675642725511, guid: b861128b64ab1f74a8c79856be2c3d0a,
+    type: 3}
+  novoFoco_1920_1080: {fileID: 2740336151399248399, guid: 7d251e971d7d901489a12b432ab575ef,
+    type: 3}
+  novoFoco_1280_720: {fileID: 4448970887653161275, guid: 3fc3c3c3517d24140b6dcd511cad70f9,
+    type: 3}
+  novoFoco_1136_640: {fileID: 6365821169380591461, guid: 1e4115ff3e86b7b4fb0e857113d6e7f7,
+    type: 3}
+  novoFoco_1134_750: {fileID: 4706216855495909670, guid: 3499e8b12f1cf7c409f0412a26b841c8,
+    type: 3}
+  novoFoco_640_360: {fileID: 5156826406341484807, guid: 35c19f88f4961d24d88fb30a0a4286d6,
+    type: 3}
+  novoFoco_640_480: {fileID: 7457652236709726618, guid: 41cde02732f4cac49bc444ba8561c91c,
+    type: 3}
+  novoFoco_960_540: {fileID: 8015405356828189734, guid: d037ffb967b91644bb207e4a535499a1,
+    type: 3}
+  telaFocodestruido_800_600: {fileID: 3842433161879003463, guid: de9d055ec8e872340bb10710aa8307b8,
+    type: 3}
+  telaFocodestruido_2560_1440: {fileID: 3303916503340527270, guid: 7595faff15438054782c448823ee2399,
+    type: 3}
+  telaFocodestruido_3840_2160: {fileID: 8878646438089660321, guid: e17be7e221d1bfe499c21693741be6f2,
+    type: 3}
+  telaFocodestruido_320_240: {fileID: 344264479731935885, guid: 4aa0021d67ff8ac41b6279fdaa7ccc70,
+    type: 3}
+  telaFocodestruido_1920_1080: {fileID: 5379382579158131612, guid: a44b72e8d5d196649ace0c64838fef2d,
+    type: 3}
+  telaFocodestruido_1280_720: {fileID: 7283414691011266431, guid: c8c448a5359a4b940aa27b11fb748b36,
+    type: 3}
+  telaFocodestruido_1136_640: {fileID: 8548520420074824489, guid: 9b086f4801a79a84994340c08b391724,
+    type: 3}
+  telaFocodestruido_1134_750: {fileID: 893361745881293166, guid: e1fb12998c6ca0b4eae9632ff2a68156,
+    type: 3}
+  telaFocodestruido_640_360: {fileID: 8248327874143500030, guid: 3b9b46c84b945a9468bb5308ed192c48,
+    type: 3}
+  telaFocodestruido_640_480: {fileID: 1783672703239677852, guid: a5ccc3f484c48c743a5f3ca87526d2f5,
+    type: 3}
+  telaFocodestruido_960_540: {fileID: 4416852081517480158, guid: b5cdcf04ca25cdc42bfbb2e369003662,
+    type: 3}
+  quantidadefoco: 3
+  focosativos: 3
+  foco1: {fileID: 6667199033059941956, guid: 0be32e9738ec3a7408329206b038e004, type: 3}
+  foco2: {fileID: 3192802856852204511, guid: f242066eed294bb4d9181bb16697658a, type: 3}
+  foco3: {fileID: 2972984963824454460, guid: 3dc0e198ea6ac714c87b4796d74314fc, type: 3}
+  foco4: {fileID: 7182207724747787414, guid: 267aedf6b3fe34a49bdd60b6b04df511, type: 3}
+  foco5: {fileID: 0}
+  foco6: {fileID: 0}
+  foco1Vivo: 1
+  foco2Vivo: 1
+  foco3Vivo: 1
+  foco4Vivo: 1
+  foco5Vivo: 1
+  foco6Vivo: 1
+  setRelogio: 0
+  idFase: 1
+  contadorTime: 30
+  foco1Destroi: {fileID: 1292332238195820, guid: 90befe9fe3c79f64889b51035ae53486,
+    type: 3}
+  foco2Destroi: {fileID: 1477549513915992, guid: 0f99aaeb6af429844a22d996af7f3f59,
+    type: 3}
+  foco3Destroi: {fileID: 1814118129052682, guid: 759c1ec19d9200a4ab282abc9368bffc,
+    type: 3}
+  foco4Destroi: {fileID: 1908050791216564, guid: f238540743cee094badeda34a72cebfa,
+    type: 3}
+  foco5Destroi: {fileID: 0}
+  foco6Destroi: {fileID: 0}
+  CarregarFase: {fileID: 0}
+  Placar_Fase: {fileID: 0}
+  NovoFoco1: {fileID: 0}
+  NovoFoco2: {fileID: 0}
+  NovoFoco3: {fileID: 0}
+  NovoFoco4: {fileID: 0}
+  PC: 1
+  HUD: {fileID: 0}
+  valorContador: 10
+--- !u!114 &7909409675828274482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7909409675828274493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a68d558c1fe9c294d9f79618e811ab5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  total: 0
+  Mosquito_1: {fileID: 1689329678297890, guid: 6d1a2e89e6343c94f8d69bc0b6cc35e6, type: 3}
+  Mosquito0: {fileID: 1411133461166556, guid: 1ae07031dccc99948b53c368179f019b, type: 3}
+  Mosquito1: {fileID: 1538449892438484, guid: 392bcb1d3c82ee6439d17b8db338f6b2, type: 3}
+  Mosquito2: {fileID: 1520226935920566, guid: 0a37aa204b0f9b74d9499cce94af529e, type: 3}
+  Mosquito3: {fileID: 1782307464218258, guid: d76242560a77266498782a15d242cabc, type: 3}
+  Mosq1: {fileID: 0}
+  Mosq2: {fileID: 0}
+  Mosq3: {fileID: 0}
+  Mosq4: {fileID: 0}
+  Mosq5: {fileID: 0}
+  Reference1: {fileID: 0}
+  Reference2: {fileID: 0}
+  Reference3: {fileID: 0}
+  Reference4: {fileID: 0}
+  Reference5: {fileID: 0}
+  Reference6: {fileID: 0}
+  fase: 1
+  time: 0
